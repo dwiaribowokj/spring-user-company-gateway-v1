@@ -60,7 +60,7 @@ mvn spring-boot:run
 Akses melalui:
 ```
 http://localhost:8080/users
-http://localhost:8080/subscriptions
+http://localhost:8080/companies
 ```
 
 ---
