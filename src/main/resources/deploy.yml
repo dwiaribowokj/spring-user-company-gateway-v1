@@ -1,0 +1,22 @@
+stack: spring
+role: service
+
+deploy:
+  enabled: true
+  branch: main
+  method: jar
+  from_artifact: true
+  path: /mnt/data/apps/spring/user-company-gateway-v1
+  service_name: spring-user-company-gateway-v1.service
+  port: 8085
+  build_tool: maven
+  java_version: 21
+
+artifact:
+  publish: nexus
+  base_url: https://nexus.dwiaribowokj.xyz
+  repository: maven-releases
+  groupId: <com.wiee.usercompany>
+  artifactId: user-company-gateway-v1
+  version: latest
+  packaging: jar
