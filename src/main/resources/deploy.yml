@@ -16,7 +16,7 @@ artifact:
   publish: nexus
   base_url: https://nexus.dwiaribowokj.xyz
   repository: maven-releases
-  groupId: <com.wiee.usercompany>
-  artifactId: user-company-gateway-v1
+  groupId: com.company.user.gateway
+  artifactId: gateway-v1
   version: latest
   packaging: jar
